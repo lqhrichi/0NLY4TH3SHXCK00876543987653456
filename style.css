@@ -1,0 +1,33 @@
+body {
+	background-color:#000000;
+	color:white;
+	text-align:center;
+	line-height:200%;
+	font-family: "Radio Canada";
+}
+
+hr {
+	width:95%;
+}
+
+a {
+	color:white;
+	text-decoration:none;
+	font-size:20px;
+}
+a:hover {
+	color:grey;
+}
+
+font {
+	font-size:20px;
+}
+
+.banner {
+	background-color:#7a7a7a;
+	text-align:center;
+	color:black;
+	padding:10px;
+	line-height:120%;
+	font-size:20px;
+}

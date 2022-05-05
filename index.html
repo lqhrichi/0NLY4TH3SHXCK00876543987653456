@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Radio+Canada:400,400i,700">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+<title>Home | Schoology</title>
+<link rel="icon" href="https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon.ico">
+</head>
+
+<body>
+
+<!--POPUP-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
+<style type="text/css">
+#overlay {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #000;
+filter:alpha(opacity=70);
+-moz-opacity:0.7;
+-khtml-opacity: 0.7;
+opacity: 0.7;
+z-index: 100;
+display: none;
+}
+.cnt223 a{
+text-decoration: none;
+}
+.popup{
+background-color:black;
+width: 100%;
+margin: 0 auto;
+display: none;
+position: fixed;
+z-index: 101;
+}
+.cnt223{
+min-width: 600px;
+width: 600px;
+min-height: 150px;
+margin: 100px auto;
+background: #f3f3f3;
+position: relative;
+z-index: 103;
+padding: 15px 35px;
+border-radius: 5px;
+box-shadow: 0 2px 5px #000;
+}
+.cnt223 p{
+clear: both;
+    color: #555555;
+    /* text-align: justify; */
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.cnt223 p a{
+color: #d91900;
+font-weight: bold;
+}
+.cnt223 .x{
+float: right;
+height: 35px;
+left: 22px;
+position: relative;
+top: -25px;
+width: 34px;
+}
+.cnt223 .x:hover{
+cursor: pointer;
+}
+</style>
+<script type='text/javascript'>
+$(function(){
+var overlay = $('<div id="overlay"></div>');
+overlay.show();
+overlay.appendTo(document.body);
+$('.popup').show();
+$('.close').click(function(){
+$('.popup').hide();
+overlay.appendTo(document.body).remove();
+return false;
+});
+
+
+ 
+
+$('.x').click(function(){
+$('.popup').hide();
+overlay.appendTo(document.body).remove();
+return false;
+});
+});
+</script>
+<div class='popup'>
+<div class='cnt223'>
+<h1 style="color:black">Notice</h1>
+<p>
+I rely on donations to keep the website up<br>
+Without donations, I cant host the site<br>
+<a style="color:black;" href="https://www.buymeacoffee.com/bobsshack" target="_blank">Donate here</a>
+<br/>
+<br/>
+<a href='' class='close'>Close</a>
+</p>
+</div>
+</div>
+	
+	
+<h3 class="banner" style="color:white;">gamesfordays should check his email</h3>
+
+<br><a href="/index.html" style="font-size:50px;color:#ffbb00;" id="title"><b>Bob's Game Shack</b></a><br>
+<font style="font-size:35px;color:#ffbb00;" id="title2">v3</font><br>
+<hr>
+<a href="/index.html"><b>Home • </b></a>
+<a href="/g">Games • </a>
+<a href="/a.html">About • </a>
+<a href="https://www.bit.ly/bobs-games" target="_blank">Alt links • </a>
+<a href="/o.html">Other • </a>
+<a href="https://forms.gle/tgmjeycJWa5eVHLS6" target="_blank">Game suggestion</a>
+<hr>
+	
+	<div style="line-height:50%;">
+	<h2>View count</h2>
+	<img src="https://hitwebcounter.com/counter/counter.php?page=7982716&style=0009&nbdigits=6&type=page&initCount=200000" title="Free Counter" Alt="web counter"   border="0"/>
+	</div>
+	
+<h3 class="banner">Bob's Game Shack is the best unblocked games website, with 50+ quality games of various genres.</h3>
+	
+<h3 class="banner" id="updatebanner" style="background-color:#ffbb00">
+<b>WHAT'S NEW IN v3?</b><br>
+	• Updated and cleaner UI (fonts, etc.)<br>
+	• Other links page (removed partners page due to spam)<br>
+	• Sixteen new games + game search bar<br>
+	• *MOST* game files are now hosted on the website, meaning games will not get blocked<br>
+	• Theme selection (change page color scheme)<br>
+</h3>
+	<script>
+		setInterval(function() {
+		 var col = document.getElementById("title")
+		 var ban = document.getElementById("updatebanner")
+		 ban.style["background-color"] = col.style.color
+		}, 10);
+		</script>
+	
+	
+	
+	<!--FOOTER-->
+	<hr>
+	<div style="line-height:50%;">
+	<h1>Choose theme</h1>
+	<select style="border-radius:5px; background-color:black; color:white; padding:5px;" id="themeSelect">
+ <option>Classic</option>
+	<option>Gold</option>
+ <option>Blue</option>
+ <option>Green</option>
+</select>
+		<br><br><br><br>
+
+<a href="https://www.buymeacoffee.com/bobsshack" target="_blank"><u>Help keep up the website by donating</u></a></div>
+	<!--FOOTER END-->
+
+</body>
